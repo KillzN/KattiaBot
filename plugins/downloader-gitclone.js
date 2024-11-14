@@ -1,3 +1,4 @@
+
 import fetch from 'node-fetch';
 
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
@@ -16,5 +17,5 @@ const handler = async (m, {args, usedPrefix, command}) => {
   m.reply(tradutor.texto3);
   conn.sendFile(m.chat, url, filename, null, m);
 };
-handler.command = /^(gitclone)$/i;
+handler.command = /^(gitcloawdawdawdwadwadwadwane)$/i;
 export default handler;
